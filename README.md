@@ -172,4 +172,5 @@ Building the fullstack web application for a imaginary restaurant* "`Little Lemo
 </table>
 
 `Note 01: Project name: LittleLemonProject and App name: LittleLemonApp`
+
 `Note 02: Templates provided as the base code needs enhancement to correctly function`
