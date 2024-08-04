@@ -95,79 +95,79 @@ Building the fullstack web application for a imaginary restaurant* "`Little Lemo
     <td>1</td>
     <td>Is the app added to the installed apps list in the settings file?</td>
     <td>Configuration updated in settings.py file</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/settings.JPG"/></td>
   </tr>
   <tr>
     <td>2</td>
     <td>Is the database configuration updated inside the settings file?</td>
     <td>Configuration updated in settings.py file</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/dbsettings.JPG"/></td>
   </tr>
   <tr>
     <td>3</td>
     <td>Were migrations performed?</td>
     <td>Yes migrations are performed and database has the tables</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/migrations.JPG"/></td>
   </tr>
   <tr>
     <td>4</td>
     <td>Are there three fields in the booking form: First name, Reservation date and Reservation slot?</td>
     <td>Booking form shows three fields as mentioned</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/booking1.JPG"/></td>
   </tr>
   <tr>
     <td>5</td>
     <td>Does a date selector open up when you click on the reservation date field on the booking form?</td>
     <td>Yes date selector allows to pick date and by default shows today's date</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/dateselector.JPG"/></td>
   </tr>
   <tr>
     <td>6</td>
     <td>Are all the bookings available as JSON data on the reservations page?</td>
     <td>Yes Json data / HTML reposonse both are received based on the response method set in views.py</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/allreservations.JPG"/></td>
   </tr>
   <tr>
     <td>7</td>
     <td>Is duplicate booking prohibited on a specific date if the time is already booked?</td>
     <td>No duplicate bookings will be allowed, once the slot is filled it gets disabled for that day</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/noduplicate.JPG"/></td>
   </tr>
   <tr>
     <td>8</td>
     <td>Does changing the date refresh the booking data?</td>
     <td>Yes the booking information gets updated immediately</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/datechangerefresh.JPG"/></td>
   </tr>
   <tr>
     <td>9</td>
     <td>Is a duplicate booking on a specific date and time unavailable if the slot is already booked?</td>
     <td>Yes, once the slot is filled it gets disabled for that day</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/noduplicate.JPG"/></td>
   </tr>
   <tr>
     <td>10</td>
     <td>Can you display bookings for a specific date using the API?</td>
     <td>Yes, the API endpoint with date will result in the booking details available for that day</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/datereservation.JPG"/></td>
   </tr>
   <tr>
     <td>11</td>
     <td>If there is no booking, does a No Booking message show for that date?</td>
     <td>Yes no bookings will be displayed</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/nobookings.JPG"/></td>
   </tr>
   <tr>
     <td>12</td>
     <td>Was fetch API used to retrieve data from the API?</td>
     <td>Yes the data is retrieved using fetch api</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/fetchApi.JPG"/></td>
   </tr>
   <tr>
     <td>13</td>
     <td>Is the current date automatically selected when you open the booking form?</td>
     <td>Yes default date will be current / todays date</td>
-    <td><img src = "https://github.com/vish4life/LittleLemon-Backend/blob/main/Snapshots_Usecase/01_user_creation_ins_res.JPG"/></td>
+    <td><img src = "https://github.com/vish4life/LittleLemon-FullStack/blob/34ff70b61d483cb5ad0f4aac0d1f7d276bbaefbb/Snapshots/booking1.JPG"/></td>
   </tr> 
 </table>
 
