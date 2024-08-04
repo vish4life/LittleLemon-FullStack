@@ -39,6 +39,7 @@ def bookings(request):
             return HttpResponse({'error':1},content='application/json')
     date = request.GET.get('date',datetime.today().date())
     bookings = Booking.objects.all().filter(reservation_date=date)
+    # bookings = Booking.objects.all()
     booking_json=serializers.serialize('json',bookings)
     return render(request,"bookings.html",{"bookings":booking_json})
     # return HttpResponse(booking_json,content_type='application/json')
